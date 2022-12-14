@@ -1,0 +1,15 @@
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.csproj.AssemblyReference.cache
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.AssemblyInfoInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.AssemblyInfo.cs
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.csproj.CoreCompileInputs.cache
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\bin\Debug\net6.0\Working.exe
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\bin\Debug\net6.0\Working.deps.json
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\bin\Debug\net6.0\Working.runtimeconfig.json
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\bin\Debug\net6.0\Working.dll
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\bin\Debug\net6.0\Working.pdb
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.dll
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\refint\Working.dll
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.pdb
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\Working.genruntimeconfig.cache
+C:\Users\User\OneDrive\Рабочий стол\Geekbrains\New\Working\obj\Debug\net6.0\ref\Working.dll
