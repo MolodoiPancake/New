@@ -1,4 +1,5 @@
-﻿Console.Clear();
+﻿// Task 36
+Console.Clear();
 int[] Array = new int[5]; 
 int count = 0;
 

@@ -9,7 +9,7 @@ for(int i = 0; i < 5; i++)
 }
 Console.WriteLine($"{string.Join(",", Array)}");
 
-for(int i = 0; i < 5; i++)
+for(int i = 1; i < 5; i++)
 { 
    if(Array[i] % 2 == 0)
    count++;
