@@ -1,10 +1,12 @@
 ﻿// Task 36
 Console.Clear();
-int[] Array = new int[5]; 
+Console.Write("");
+int n = Convert.ToInt32(Console.ReadLine());
+int[] Array = new int[n]; 
 int count = 0;
 
 {
-for(int i = 0; i < 5; i++)
+for(int i = 0; i < Array.Length; i++)
 {
    Array[i] = new Random().Next(10,50);
 }

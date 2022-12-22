@@ -1,12 +1,21 @@
 ﻿//Task 39
-
-Console.Clear();
-Console.Write("Введите число: ");
-int n = Convert.ToInt32(Console.ReadLine()), a0 = 0, a1 = 1;
-for (int i = 0; i < n; i++)
+void InputMatrix(int[,] matrix)
 {
-    Console.Write($"{a0} ");
-    int x = a0 + a1;
-    a0 = a1;
-    a1 = x;
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 1; j < matrix.GetLength(1); j+=2)
+        {
+            matrix[i, j] = new Random().Next(-10, 11); // [-10, 10
+            Console.Write($"{matrix[i, j]} \t");
+            
+        }
+        Console.WriteLine();
+    }
 }
+
+void 
+Console.Clear();
+Console.Write("Введите размеры матрицы: ");
+int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
+int[,] matrix = new int[size[0], size[1]];
+InputMatrix(matrix);
