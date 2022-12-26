@@ -1,21 +1,43 @@
-﻿//Task 39
-void InputMatrix(int[,] matrix)
+﻿Console.WriteLine("введите номер строки");
+int n = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("введите номер столбца");
+int m = Convert.ToInt32(Console.ReadLine());
+int [,] numbers = new int [10,10];
+FillArrayRandomNumbers(numbers);
+
+if (n > numbers.GetLength(0) || m > numbers.GetLength(1))
 {
-    for (int i = 0; i < matrix.GetLength(0); i++)
-    {
-        for (int j = 1; j < matrix.GetLength(1); j+=2)
-        {
-            matrix[i, j] = new Random().Next(-10, 11); // [-10, 10
-            Console.Write($"{matrix[i, j]} \t");
-            
+    Console.WriteLine("такого элемента нет");
+}
+else
+{
+    Console.WriteLine($"значение элемента {n} строки и {m} столбца равно {numbers[n-1,m-1]}");
+}
+
+PrintArray(numbers);
+
+void FillArrayRandomNumbers(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+        {        
+            for (int j = 0; j < array.GetLength(1); j++)
+            {
+                array [i,j] = new Random().Next(-100, 100)/10;
+            }   
         }
-        Console.WriteLine();
+}
+
+void PrintArray(int[,] array)
+{
+    for (int i = 0; i < array.GetLength(0); i++)
+    {
+        Console.Write("[ ");
+        for (int j = 0; j < array.GetLength(1); j++)
+        {
+            Console.Write(array[i,j] + " ");
+        }   
+        Console.Write("]");
+        Console.WriteLine(""); 
     }
 }
 
-void 
-Console.Clear();
-Console.Write("Введите размеры матрицы: ");
-int[] size = Console.ReadLine().Split(" ").Select(x => int.Parse(x)).ToArray();
-int[,] matrix = new int[size[0], size[1]];
-InputMatrix(matrix);
