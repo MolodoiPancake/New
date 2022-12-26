@@ -1,16 +1,16 @@
 ﻿
-void ArrayWithRandomNumbers(int[,] array)
+void ArrayWithRandomNumbers(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
         for (int j = 0; j < array.GetLength(1); j++)
         {
-            array[i, j] = new Random().Next(-10, 11);
+            array[i, j] = new Random().Next(-100, 100) / 10;
         }
     }
 }
 
-void PrintArray(int[,] array)
+void PrintArray(double[,] array)
 {
     for (int i = 0; i < array.GetLength(0); i++)
     {
@@ -28,6 +28,6 @@ Console.WriteLine("введите количество строк");
 int linesVol = Convert.ToInt32(Console.ReadLine());
 Console.WriteLine("введите количество столбцов");
 int columnsVol = Convert.ToInt32(Console.ReadLine());
-int[,] numbers = new int[linesVol, columnsVol];
+double[,] numbers = new double[linesVol, columnsVol];
 ArrayWithRandomNumbers(numbers);
 PrintArray(numbers);
