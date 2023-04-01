@@ -22,6 +22,7 @@ void PrintArray(double[,] array)
         Console.WriteLine("");
     }
 }
+Console.WriteLine("Саня ботяра");
 Console.Clear();
 Console.WriteLine("введите количество строк");
 int linesVol = Convert.ToInt32(Console.ReadLine());
